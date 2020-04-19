@@ -3,6 +3,7 @@
   "name": "Hangonto",
   "version": "1.0",
 
+  "description": "Hang onto chats before hang up hangouts",
   "icons": { "128": "icon.png" },
 
   "permissions":["tabs", "declarativeContent"],
