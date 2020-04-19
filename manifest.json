@@ -3,6 +3,8 @@
   "name": "Hangonto",
   "version": "1.0",
 
+  "icons": { "128": "icon.png" },
+
   "permissions":["tabs", "declarativeContent"],
 
   "background": {
