@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset='UTF-8'>
+  <link rel="stylesheet" href="popup.css">
+  <link rel="stylesheet" href="spectre.min.css">
+  <link rel="stylesheet" href="spectre-icons.min.css">
+  <title>Hangonto</title>
+</head>
+<body>
+  <div class="panel bg-dark">
+    <div id="toast"></div>
+    <div class="panel-header">
+      <div class="panel-title text-center">
+        <h4>Hangonto</h4>
+      </div>
+    </div>
+    <div class="panel-body">
+      <em>Usage</em>
+      <ol>
+        <li>Join a Meet video call.</li>
+        <li>Click a chat icon (upper right corner).</li>
+        <li>Open this popup.</li>
+        <li>(Optional) Enter a class name in a text filed.</li>
+        <li>Click a 'Copy' button.</li>
+      </ol>
+    </div>
+    <div class="panel-footer">
+      <div class="form-group">
+        <label class="form-label">Class Name</label>
+        <input class="form-input" type="text" id="target-class-name" placeholder="(Optional)">
+      </div>
+      <button class="btn btn-primary" id="copy-button">
+        <i class="icon icon-copy"></i> Copy
+      </button>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
+
